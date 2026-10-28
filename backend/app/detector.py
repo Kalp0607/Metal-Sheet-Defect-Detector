@@ -6,13 +6,12 @@ from typing import Dict, List, Any, Tuple
 
 class MetalSheetDefectDetector:
     """
-    Custom Metal Sheet Defect Detection Algorithm developed from scratch
-    guided directly by Computer Vision source materials:
-    - Luminance & Color Space Conversion (5_Digital Camera_color space.pptx)
-    - Locally Adaptive Histogram Equalization / CLAHE (Chap_3_Image Processing.pptx Slide 11)
-    - Separable Gaussian Background Illumination Compensation (Filtering 12_7.ppt Slides 30-33)
-    - Bilateral Edge-Preserving Smoothing for metal texture rejection (Filtering 12_7.ppt Slides 44-46)
-    - Gradient & Canny Hysteresis Edge Detection (EdgeDetection_12_7.ppt Slides 3-5)
+    Custom Metal Sheet Defect Detection Algorithm developed from scratch:
+    - Luminance & Color Space Conversion (LAB space decomposition)
+    - Locally Adaptive Histogram Equalization (CLAHE) for regional contrast normalization
+    - Separable Gaussian Background Illumination Compensation
+    - Bilateral Edge-Preserving Smoothing for brushed metal texture rejection
+    - Gradient & Canny Hysteresis Edge Detection
     - Photometric Deviation Gating relative to surface roughness noise sigma
     - Morphological Opening & Closing for clean defect localization
     - Geometric feature extraction and classification
