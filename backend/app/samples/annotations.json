@@ -1,0 +1,152 @@
+{
+  "scratches.jpg": {
+    "title": "Surface Scratches",
+    "defects": [
+      {
+        "id": "defect_1",
+        "type": "Scratch",
+        "bbox": [
+          145,
+          115,
+          200,
+          200
+        ],
+        "severity": "High"
+      },
+      {
+        "id": "defect_2",
+        "type": "Scratch",
+        "bbox": [
+          445,
+          415,
+          270,
+          26
+        ],
+        "severity": "Medium"
+      }
+    ]
+  },
+  "cracks.jpg": {
+    "title": "Stress & Fracture Cracks",
+    "defects": [
+      {
+        "id": "defect_1",
+        "type": "Crack",
+        "bbox": [
+          195,
+          175,
+          85,
+          240
+        ],
+        "severity": "Severe"
+      },
+      {
+        "id": "defect_2",
+        "type": "Crack",
+        "bbox": [
+          545,
+          95,
+          70,
+          150
+        ],
+        "severity": "Severe"
+      }
+    ]
+  },
+  "pitted_holes.jpg": {
+    "title": "Chemical Pitting & Cavities",
+    "defects": [
+      {
+        "id": "defect_1",
+        "type": "Pitting/Pore",
+        "bbox": [
+          195,
+          185,
+          65,
+          75
+        ],
+        "severity": "Medium"
+      },
+      {
+        "id": "defect_2",
+        "type": "Pitting/Pore",
+        "bbox": [
+          540,
+          360,
+          40,
+          40
+        ],
+        "severity": "High"
+      }
+    ]
+  },
+  "roll_marks.jpg": {
+    "title": "Periodic Roll Marks",
+    "defects": [
+      {
+        "id": "defect_1",
+        "type": "Roll Mark",
+        "bbox": [
+          210,
+          275,
+          80,
+          50
+        ],
+        "severity": "Medium"
+      },
+      {
+        "id": "defect_2",
+        "type": "Roll Mark",
+        "bbox": [
+          370,
+          275,
+          80,
+          50
+        ],
+        "severity": "Medium"
+      },
+      {
+        "id": "defect_3",
+        "type": "Roll Mark",
+        "bbox": [
+          530,
+          275,
+          80,
+          50
+        ],
+        "severity": "Medium"
+      }
+    ]
+  },
+  "inclusions.jpg": {
+    "title": "Slag Inclusions & Patches",
+    "defects": [
+      {
+        "id": "defect_1",
+        "type": "Inclusion",
+        "bbox": [
+          375,
+          145,
+          80,
+          80
+        ],
+        "severity": "High"
+      },
+      {
+        "id": "defect_2",
+        "type": "Inclusion",
+        "bbox": [
+          175,
+          385,
+          60,
+          55
+        ],
+        "severity": "Medium"
+      }
+    ]
+  },
+  "clean_sheet.jpg": {
+    "title": "Pristine Metal Sheet (Clean)",
+    "defects": []
+  }
+}
